@@ -1,0 +1,208 @@
+ .container{
+    max-width: 1240px ;
+    width: 100%;
+margin: 0 auto;
+padding: 0px 20px;
+box-sizing: border-box;
+ }  
+
+
+ 
+
+   form{ 
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .wrapper{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+  }
+  .data{
+    border-radius:8px 8px 0px 0px;
+    font-family: sans-serif;
+    background-color: rgba(2, 255, 103, 0.05);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 1030px;
+    margin: 0 auto;
+    border-bottom: 2px solid blue;
+    padding-left: 33px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+  .input_tap{
+    font-family: sans-serif;
+    padding: 10px;
+border-radius: 4px;
+    outline:none;
+    border: 3px solid rgb(106, 107, 112);
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+  }
+ .input_tap:hover{
+ box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
+ }
+  p{
+    font-family: sans-serif;
+width: 250px;
+padding-right: 10px;
+  }
+  .qushish{
+    font-family: sans-serif;
+    background-color: rgb(7, 194, 7);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .dalet{
+    font-family: sans-serif;
+    padding-right: 5px;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px  ;
+    margin-right: 10px;
+  }
+  .dalet:hover{
+    background-color: blue;
+  }
+  .imgg{
+    width: 25%;
+    height: 25%;
+    border-radius: 60%;
+    object-fit: contain;
+  }
+
+ .search{
+  color: #00ff33;
+  font-size: 24px;
+  padding-left: 300px;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px ;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* z-index: -1; */
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .firist{
+  max-width: 10px;
+ }
+ .name_frist{
+  max-width: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+.qushishs{
+  margin-left: 400px;
+}
+.daletT{
+  font-family: sans-serif;
+  padding-right: 5px;
+  background-color: rgb(14, 5, 145);
+  padding: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px  ;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.using.show{
+  display: block;
+  transition: 0.4s ease;
+  top: 100px;
+  margin-top: 10px;
+  
+}
+.sear{
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+
+
+
+ 
+}
+.using{
+  top: 100px !important;
+  margin-top: -600px;
+  transition:0.4s ease !important;
+  top: -500px !important;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 540px;
+  border-radius: 16px;
+  text-align: center;
+  margin-left: 21.8%;
+  /* margin: 0 auto; */
+  padding: 30px 0;
+  z-index: 1;
+
+}
+.addd{
+  color: #00ff33;
+  font-size: 24px;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px ;
+    margin-bottom: 30px;
+    cursor: pointer;
+    /* z-index: -1; */
+}
+.yurak{
+  display: none;
+}
+.yurak1{
+  border: none;
+  background-color: none;
+  outline: none;
+  cursor: pointer;
+}
+#but1{
+  background-color: none;
+}
+.rasim2{
+  border: none;
+  max-width: 50px;
+
+}
+.buttoni{
+  cursor: pointer;
+  border: none;
+  background-color:transparent;
+}
